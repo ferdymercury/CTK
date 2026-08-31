@@ -137,7 +137,7 @@ macro(ctkMacroSetupQt)
       list(APPEND CTK_QT_COMPONENTS Network)
     endif()
 
-    if(CTK_ENABLE_DICOM)
+    if(CTK_LIB_DICOM/Core)
       list(APPEND CTK_QT_COMPONENTS Svg)
     endif()
 
