@@ -30,7 +30,7 @@ Similarly for Qt 6.
 
 ### Notes
 
-* By default, the variable `CTK_SUPERBUILD`is ON, to build most dependencies/plugins automatically. Set it to OFF if you want to rely on externally installed packages/plugins. 
+* By default, the `CTK_SUPERBUILD` option is ON, to build most dependencies/plugins automatically. Set it to OFF if you want to rely on externally installed packages/plugins.
 
 * To install the required development environment easily, refer to the "Prerequisites" section of the
   3D Slicer [build instructions](https://slicer.readthedocs.io/en/latest/developer_guide/build_instructions/index.html).
